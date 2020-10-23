@@ -36,9 +36,9 @@ Recently, I spent some time applying my theoretical results to one particular st
 ### Why
 This foray into database query and big-data computation is stimulated by (1) my data science ideal, (2) plight of some of my fellow graduate students:
 
-* A scientific theory, as Karl Popper emphasized, should in principle be disprovable/falsifiable by experiment or observation. In the same vein, data science needs to be reproducible to be scientific. To promote reproducibility, I hope that my empirical research could be based on open data and open softwares. To this end, I decided to choose a datebase that is open to academia, and write an assortment of codes that automize all the data query and computation tasks without human intervention, so that my peers and colleagues will be able to reproduce my results pretty conveniently (no more than 48 hours using the [WRDS Cloud](https://wrds-www.wharton.upenn.edu/pages/support/getting-started/3-ways-use-wrds/#the-wrds-cloud){:target="_blank"} cluster). 
+* A scientific theory, as Karl Popper emphasized, should in principle be disprovable/falsifiable by experiment or observation. In the same vein, data science needs to be reproducible to be scientific. To promote reproducibility, I hope that my empirical research could be based on open data and open softwares. To this end, I decided to choose a datebase that is open to academia, and write an assortment of codes that automize all the data query and computation tasks without human intervention, so that my peers and colleagues will be able to reproduce my results pretty conveniently (no more than 48 hours using the [WRDS Cloud](https://wrds-www.wharton.upenn.edu/pages/support/getting-started/3-ways-use-wrds/#the-wrds-cloud){:target="_blank"} cluster).
 
-* Another reason is to some extent personal. It took my friend 3 months to download, clean, organize some large datasets from TAQ before being able to proceed with the statistical analysis. It is a heartbreaking story of a back-breaking job. Not only consuming time, it costs money too! Another friend working with *Datastream* had to purchase an expensive desktop last September with sufficient RAM to read in data from the local hard drive. 
+* Another reason is to some extent personal. It took my friend 3 months to download, clean, organize some large datasets from TAQ before being able to proceed with the statistical analysis. It is a heartbreaking story of a back-breaking job. Not only consuming time, it costs money too! Another friend working with *Datastream* had to purchase an expensive desktop last September with sufficient RAM to read in data from the local hard drive.
 
 In the light of these, what can I contribute? It would be wonderful if we have a data pipeline that
 1. inquires data by a few scripts;
@@ -89,6 +89,6 @@ However, the WRDS engineering team still faces a substantial task of maintaining
 
 Due to these constraints, the current pipeline is only partially automatic and needs human care every few hours. Rather than looping over all the data at once, we currently need to submit batch jobs to scan subsets of data which can finish in less than, for example, 6 hours. If you decide to leave for the beach, please bring a ssh-capable device with you.
 
-More to come, data and pipeline. Mark my words~
+More to come, data and pipeline.
 
 <br/><br/>

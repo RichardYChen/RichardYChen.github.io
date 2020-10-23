@@ -2,12 +2,17 @@
 layout: page
 permalink: /cv/
 title: CV
-description: updated in 2020/01
+description: updated in 2020/09
 ---
 The full CV is [HERE](/assets/pdf/RichardCHEN_CV.pdf){:target="_blank"}.
 
+### Position
+**Rice University**, 2020/09 - present\\
+*Postdoctoral researcher, Statistics*\\
+Sponsor: Professor Philip A. Ernst
+
 ### Education
-**The University of Chicago**, 2015 - 2020 (expected)\\
+**The University of Chicago**, 2015/09 - 2020/08\\
 *Ph.D. candidate, Statistics*\\
 Advisor: Professor Per A. Mykland\\
 Thesis: "*Particles and waves: in-fill asymptotic analyses of dynamic data in  time and frequency domains*"
